@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+
+    <!-- === SEMÁFORO DOS CARROS === -->
+    <section class="container">
+        <div class="card semaforo">
+            <div class="card-text semaforoCar">
+                <div id="redSignCar" class="button button-circle"></div>
+                <div id="yelowSignCar" class="button button-circle"></div>
+                <div id="greenSignCar" class="button button-circle"></div>
+            </div>           
+        </div>
+    </section> 
+    
+    <!-- === SEMÁFORO DOS PEDESTRES === -->
+    <section>
+        <div class="card semaforoPedestre">
+            <div class="card-text pedestreFront">
+                <div id="redSignPeople" class="button button-circle">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/hand.png" width="100%" alt="">
+                </div>
+                <div id="greenSignPeople" class="button button-circle">
+                    <img src="https://img.icons8.com/ios-filled/50/000000/walking.png"  width="100%" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- === BUTÃO PARA ABRIR O SEMÁFORO DO PEDESTRE === -->
+    <section>
+        <div class="card buttonPedestre">
+            <div class="card-text">
+                <div id="greenSign" class="button button-circle"></div>
+            </div>
+            <div class="card" id="timer"></div>
+        </div>
+    </section>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+
+body {
+    background-image: url("img/rua.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CARROS */
+    /* === COLOR'S === */
+    section #redSignCar {
+        background-color: rgb(93, 0, 0); 
+    }
+    section #yelowSignCar {
+        background-color: rgb(91, 91, 1);   
+    }
+    section #greenSignCar {
+        background-color: green;   
+    }
+
+    /* === SEMÁFORO NO CENTRO === */
+    section .semaforo {
+        background-color: rgb(68, 66, 66);
+        border-radius: 10px;
+        align-items: center;
+        padding: 20px 100px 20px 100px;
+        margin: 5% 40% 0;
+        width: 100px;
+        justify-content: center;
+    }
+    section .semaforoCar {
+        background-color: black;
+        border-radius: 10px;
+        align-items: center;
+        padding: 10px 5px 10px 5px;
+        width: 100px;
+        justify-content: center;
+    }
+
+    /* === CIRCLE BUTTON === */
+    section .semaforo .button-circle {
+        -webkit-border-radius: 140px;
+        -moz-border-radius: 140px;
+        -ms-border-radius: 140px;
+        -o-border-radius: 140px;
+        border-radius: 140px;
+        -webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+        width: 80px;
+        line-height: 80px;
+        height: 80px;
+        padding: 1px;
+        border-width: 4px;
+    }
+/* END CARROS */
+
+/* SINAL DO PEDESTRE */
+    /* === COLOR'S === */   
+    section #greenSignPeople {
+        background-color: rgb(0, 63, 0);   
+    }
+    /* === HOVER'S === */
+    section #redSignPeople {
+        background-color: red;   
+    }
+
+    /* === SEMÁFORO DO DEDESTRE === */
+    section .semaforoPedestre {
+        background-color: rgb(68, 66, 66);
+        border-radius: 10px;
+        align-items: center;
+        padding: 10px 10px 0px 50px;
+        margin: 10% 0 0 3%;
+        width: 100px;
+        justify-content: center;
+    }
+    section .pedestreFront {
+        background-color: black;
+        border-radius: 10px;
+        align-items: center;
+        padding: 10px 5px 10px 5px;
+        width: 65px;
+        justify-content: center;
+    }
+
+    /* === CIRCLE BUTTON === */
+    section .semaforoPedestre .button-circle {
+        -webkit-border-radius: 140px;
+        -moz-border-radius: 140px;
+        -ms-border-radius: 140px;
+        -o-border-radius: 140px;
+        border-radius: 140px;
+        -webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+        width: 60px;
+        line-height: 80px;
+        height: 100px;
+        padding: 1px;
+        border-width: 4px;
+    }
+/* END SINAL DO PEDESTRE */
+
+/* === BUTÃO DA FAIXA DE DEDESTRE === */
+    /* BUTTON PEDESTRE + HOVER */
+    section #greenSign {
+        background-color: rgb(0, 63, 0);   
+    }
+    section #greenSign:hover {
+        background-color: green;   
+    }
+
+    /* BUTTON */
+    section .buttonPedestre {
+        background-color: rgb(68, 66, 66);
+        border-radius: 10px;
+        align-items: center;
+        padding: 10px 20px 100px 5px;
+        width: 50px;
+        float: right;
+        justify-content: right;
+    }
+    
+    /* === CIRCLE BUTTON === */
+    section .buttonPedestre .button-circle {
+        -webkit-border-radius: 140px;
+        -moz-border-radius: 140px;
+        -ms-border-radius: 140px;
+        -o-border-radius: 140px;
+        border-radius: 140px;
+        -webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+        width: 30px;
+        line-height: 30px;
+        height: 30px;
+        padding: 0px;
+        border-width: 4px;
+    }
+/* END BUTÃO DA FAIXA DE PEDESTRE */
